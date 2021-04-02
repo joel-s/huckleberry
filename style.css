@@ -9,4 +9,55 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+header {
+  min-height: 50vh;
+  padding-top: 128px;
+  padding-bottom: 40px;
+  border-bottom: darkslategray 8px solid;
+}
+
+.max-width-wrapper {
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+.title {
+  font-size: 2rem;
+  padding-bottom: 32px;
+}
+
+.intro-chunk {
+  padding: 0 48px 0 16px;
+}
+
+.intro-chunk p {
+  font-size: 1.5rem;
+  width: 300px;
+  min-width: 50vh;
+}
+
+.intro-chunk p strong {
+  color: darkcyan;
+}
+
+main {
+  min-height: 50vh;
+  background-color: darkgray;
+  padding-top: 64px;
+}
+
+.card {
+  background-color: white;
+  padding: 8px 16px 16px;
+  border-bottom: 8px solid darkslategray;
+}
+
+.indented-heading {
+  background-color: hsl(40, 100%, 60%);
+  font-size: 1.4rem;
+  max-width: 400px;
+  margin-top: 0;
+  margin-left: -32px;
+  padding: 16px 32px;
+  border-bottom: 8px darkgoldenrod solid;
+}
